@@ -3,6 +3,7 @@
     import Thumb from './components/Thumb.vue';
     import BlueNav from './components/BlueNav.vue';
     import jumbotron from './components/jumbotron.vue';
+    import preFooter from './components/preFooter.vue';
 
     export default {
       name: 'App',
@@ -11,6 +12,7 @@
         Thumb,
         BlueNav,
         jumbotron,
+        preFooter,
       }
     }
 </script>
@@ -21,6 +23,7 @@
     <jumbotron/>
     <Thumb/>
     <BlueNav/>
+    <preFooter/>
   
   </main>
 

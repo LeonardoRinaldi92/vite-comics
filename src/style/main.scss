@@ -95,6 +95,32 @@ main {
                     margin-left: 10px;
                 } 
             }
-        } 
+        }
+     
     }
+.list-title {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.lista-bottom {
+    margin-bottom: 1.5rem;
+    margin-top: 0.4rem;
+    li {
+        list-style: none;
+        a {
+            color: white;
+            font-size: 0.8rem;
+            text-decoration: none;
+            opacity: 0.5;
+            text-transform: capitalize;
+            
+        }
+    }
+}
+
+.list {
+    margin-top: 50px;
+    margin-left: 10%;
+}
 }

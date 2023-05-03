@@ -19,7 +19,7 @@
     #jumbo {
         height: 400px;
         width: 100%;
-        background-image: url(../../public/images/jumbotron.jpg);
+        background-image: url(images/jumbotron.jpg);
         background-repeat: no-repeat;
         position: relative;
         .current {
