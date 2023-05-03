@@ -59,7 +59,9 @@
                 <ul>
                     <li v-for="(element,index) in navbar">
                         <a :href="element.url">
-                            {{ element.menuName }}
+                            <b>
+                                {{ element.menuName }}
+                            </b>
                         </a>
                     </li>
                 </ul>
