@@ -18,7 +18,7 @@ header{
     align-items: center;
     #logo {
         img {
-            height: 80px;
+            height: 60px;
         }
     }
     nav{
@@ -33,7 +33,7 @@ header{
             li{
                 list-style-type: none;
                 margin-left: 30px;
-                padding: 60px 5px;
+                padding: 40px 5px;
                 position: relative;
                 &:hover::after {
                     position: absolute;
