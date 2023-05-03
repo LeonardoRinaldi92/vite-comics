@@ -1,18 +1,22 @@
 <script>
     import HeaderComp from './components/HeaderComp.vue';
+    import Thumb from './components/Thumb.vue'
 
     export default {
       name: 'App',
       components: {
         HeaderComp,
+        Thumb,
       }
     }
 </script>
 
 <template>
-  <div id="title">
-    <HeaderComp/>
-  </div>
+  <HeaderComp/>
+  <main>
+    <Thumb/>
+  </main>
+
 </template>
 
 <style lang="scss">
