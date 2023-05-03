@@ -6,7 +6,9 @@
 <template>
     <div id="jumbo">
         <div class="current">
-            current series
+            <span>
+                current series
+            </span>
         </div>
         
     </div>
@@ -30,6 +32,7 @@
             font-size: 1.5rem;
             background-color: $blue-dc;
             cursor: pointer;
+            z-index: 99;
 
         }
     }
