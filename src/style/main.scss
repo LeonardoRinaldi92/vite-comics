@@ -1,0 +1,43 @@
+// conterrà tutti i parziali
+@import './partials/_variables.scss';
+
+// style generale del sito
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 70%;
+    margin:0 20% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #logo {
+        img {
+            height: 80px;
+        }
+    }
+    nav{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            li{
+                list-style-type: none;
+                margin-left: 30px;
+                padding: 60px 5px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
