@@ -1,13 +1,15 @@
 <script>
     import lista1 from './lista1.vue';
     import lista2 from './lista2.vue';
+    import lista3 from './lista3.vue';
 
 
     export default {
     name: "preFooter",
     components: {
         lista1,
-        lista2
+        lista2,
+        lista3,
     },
 
 }
@@ -22,7 +24,9 @@
             <div>
                 <lista2/>
             </div>
-            <div></div>
+            <div>
+                <lista3/>
+            </div>
 
         </div>  
     </div>
@@ -46,6 +50,7 @@
         }
         .list {
             display: flex;
+            margin-left: 10%;
             div {
                 margin-right: 20px;
             }
