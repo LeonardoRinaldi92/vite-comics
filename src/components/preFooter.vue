@@ -1,13 +1,15 @@
 <script>
-    import Lista1 from './lista1.vue';
-import lista1 from './lista1.vue'
+    import lista1 from './lista1.vue';
+    import lista2 from './lista2.vue';
+
 
     export default {
     name: "preFooter",
-    component: {
+    components: {
         lista1,
+        lista2
     },
-    components: { Lista1 }
+
 }
 </script>
 <template>
@@ -15,9 +17,11 @@ import lista1 from './lista1.vue'
         <img src="/images/dc-logo-bg.png" id="logoBig" alt="">
         <div class="list">
             <div>
-               <Lista1/>
+                <lista1/>
             </div>
-            <div></div>
+            <div>
+                <lista2/>
+            </div>
             <div></div>
 
         </div>  
@@ -39,11 +43,11 @@ import lista1 from './lista1.vue'
             top: -90%;
             transform: translate(0,+50%);
             left: 60%;
-            .list {
-                display: flex;
-                div{
-                    flex-basis: calc(100% / 3);
-                }
+        }
+        .list {
+            display: flex;
+            div {
+                margin-right: 20px;
             }
         }
     }

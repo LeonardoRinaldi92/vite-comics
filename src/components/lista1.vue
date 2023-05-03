@@ -48,7 +48,7 @@
                             },
                             {
                                 name:"shop DC Collectibles",
-                                url:"/shop_dc/collectibles"
+                                url:"/shop_dc_collectibles"
                             }
                         ]
 
