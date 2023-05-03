@@ -48,26 +48,25 @@
             }
         }
     }
-    </script>
+</script>
 
-    <template>
-        <header>
-            <div id="logo">
-                <img src="/images/dc-logo.png" alt="">
-            </div>
-            <nav>
-                <ul>
-                    <li v-for="(element,index) in navbar">
-                        <a :href="element.url">
-                            <b>
-                                {{ element.menuName }}
-                            </b>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </template>
-
-    <style>
-    </style>
+<template>
+    <header>
+        <div id="logo">
+            <img src="/images/dc-logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li v-for="(element,index) in navbar">
+                    <a :href="element.url">
+                        <b>
+                            {{ element.menuName }}
+                        </b>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</template>
+<style>
+</style>

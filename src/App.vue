@@ -1,12 +1,14 @@
 <script>
     import HeaderComp from './components/HeaderComp.vue';
-    import Thumb from './components/Thumb.vue'
+    import Thumb from './components/Thumb.vue';
+    import BlueNav from './components/BlueNav.vue';
 
     export default {
       name: 'App',
       components: {
         HeaderComp,
         Thumb,
+        BlueNav,
       }
     }
 </script>
@@ -15,6 +17,8 @@
   <HeaderComp/>
   <main>
     <Thumb/>
+    <BlueNav/>
+  
   </main>
 
 </template>

@@ -65,6 +65,36 @@ main {
         height: 300px;
         background-color: $nero;
         width: 100%;
-    }
+    };
+    .bluenav{
+        background-color: $blue-dc;
+        width: 100%;
+        .box-size {
+            width: 70%;
+            margin:0 20% 0 10%;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
+            .icon {
+                display: flex;
+                align-items: center;
+                height: 100px;
+                cursor: pointer;
+                img {
+                    height: 75%;
+                }
+                #icon-img{
+                   height: 45%; 
+                }
+                span {
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 0.9rem;
+                    margin-left: 10px;
+                } 
+            }
+        } 
+    }
 }
