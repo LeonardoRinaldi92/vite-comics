@@ -28,6 +28,7 @@
             bottom: 20px;
             left: 50%;
             transform: translate(-50% , 0);
+            cursor: pointer;
 
         }
     }

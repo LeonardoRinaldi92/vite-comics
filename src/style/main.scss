@@ -93,6 +93,9 @@ main {
                     color: white;
                     font-size: 0.9rem;
                     margin-left: 10px;
+                    &:hover {
+                        font-size: 1.1rem;
+                    }
                 } 
             }
         }
@@ -114,7 +117,10 @@ main {
             text-decoration: none;
             opacity: 0.5;
             text-transform: capitalize;
-            
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }   
         }
     }
 }
