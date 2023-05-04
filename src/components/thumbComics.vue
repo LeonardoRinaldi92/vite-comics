@@ -32,6 +32,9 @@
             position: relative;
             &:hover .price{
                 display: block;
+            }
+            &:hover img {
+                opacity: 0.6;
             }     
             img {
                 width: 100%;
