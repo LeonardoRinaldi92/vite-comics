@@ -41,7 +41,7 @@
         </span>
         <ul class="lista-bottom"> 
             <li v-for="(element,index) in lista1[0].links">
-                <a :href="element.url">
+                <a :href="element.url" target="_blank">
                 {{ element.name }}
                 </a>
             </li>

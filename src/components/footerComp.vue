@@ -43,7 +43,7 @@
 
     footer{
         background-color: $grey;
-        height: 100px;
+        height: 120px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -59,7 +59,7 @@
                 font-size: 1.2rem;
                 padding: 12px;
                 border: 3px solid $blue-dc;
-                
+                cursor: pointer;
             }
             .icon-box {
                 display: flex;

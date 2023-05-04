@@ -31,7 +31,7 @@
             text-transform: uppercase;
             font-size: 1.5rem;
             background-color: $blue-dc;
-            cursor: pointer;
+            cursor:default;
             z-index: 99;
 
         }
