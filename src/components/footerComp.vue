@@ -43,7 +43,7 @@
 
     footer{
         background-color: $grey;
-        height: 150px;
+        height: 100px;
         width: 100%;
         display: flex;
         align-items: center;
