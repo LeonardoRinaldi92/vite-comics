@@ -55,7 +55,24 @@ header{
                     font-weight: 600;
                     font-size: 0.8rem;
                 }
+                
 
+            }
+            .active {
+                &::after{
+                    position: absolute;
+                    content: '';
+                    display: inline-block;
+                    height: 5px;
+                    background-color: $blue-dc;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+
+                }
+                a {
+                    color: $blue-dc;
+                }
             }
         }
     }

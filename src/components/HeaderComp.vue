@@ -6,43 +6,53 @@
                 navbar: [
                     {
                         menuName: "characters",
-                        url: "/characters"
+                        url: "/characters",
+                        visible: false
                     },
                     {
                         menuName: "comics",
-                        url: "/comics"
+                        url: "/comics",
+                        visible: true
                     },
                     {
                         menuName: "movies",
-                        url: "/movies"
+                        url: "/movies",
+                        visible: false
                     },
                     {
                         menuName: "tv",
-                        url: "/tv"
+                        url: "/tv",
+                        visible: false
                     },
                     {
                         menuName: "games",
-                        url: "/games"
+                        url: "/games",
+                        visible: false
                     },
                     {
                         menuName: "collectibles",
-                        url: "/collectibles"
+                        url: "/collectibles",
+                        visible: false
                     },
                     {
                         menuName: "videos",
-                        url: "/videos"
+                        url: "/videos",
+                        visible: false
                     },
                     {
                         menuName: "fans",
-                        url: "/fans"
+                        url: "/fans",
+                        visible: false
                     },
                     {
                         menuName: "news",
-                        url: "/news"
+                        url: "/news",
+                        visible: false
                     },
                     {
                         menuName: "shop",
-                        url: "/characters"
+                        url: "/characters",
+                        visible: false
                     },
                 ]            
             }
@@ -57,7 +67,7 @@
         </div>
         <nav>
             <ul>
-                <li v-for="(element,index) in navbar">
+                <li v-for="(element,index) in navbar" :class="element.visible ? 'active' : ''">
                     <a :href="element.url">
                         <b>
                             {{ element.menuName }}
