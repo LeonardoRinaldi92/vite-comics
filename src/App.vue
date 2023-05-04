@@ -4,6 +4,7 @@
     import BlueNav from './components/BlueNav.vue';
     import jumbotron from './components/jumbotron.vue';
     import preFooter from './components/preFooter.vue';
+    import footerComp from './components/footerComp.vue';
 
     export default {
       name: 'App',
@@ -13,6 +14,7 @@
         BlueNav,
         jumbotron,
         preFooter,
+        footerComp,
       }
     }
 </script>
@@ -24,6 +26,7 @@
     <Thumb/>
     <BlueNav/>
     <preFooter/>
+    <footerComp/>
   
   </main>
 
