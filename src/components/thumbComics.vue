@@ -30,11 +30,15 @@
             overflow: hidden;  
             margin-bottom: 10px;  
             position: relative;
+            border: 1px solid white;
             &:hover .price{
                 display: block;
             }
             &:hover img {
                 opacity: 0.6;
+            }
+            &:hover {
+                border: 2px solid $blue-dc;
             }     
             img {
                 width: 100%;
