@@ -26,7 +26,7 @@
             position: absolute;
             padding: 15px 30px;
             bottom: -30px;
-            left: 15%;
+            left: 10%;
             color: white;
             text-transform: uppercase;
             font-size: 1.5rem;

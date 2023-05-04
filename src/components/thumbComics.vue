@@ -20,6 +20,7 @@
 </template>
 
 <style lang="scss" scooped>
+        @import '../style/partials/variables';
     .card {
         flex-basis:calc(100% / 6 );
         padding: 20px;
@@ -38,9 +39,10 @@
             }
             .price {
                 position: absolute;
-                bottom: 0;
+                bottom: 3px;
+                right: 3px;
                 color: white;
-                background-color: black;
+                background-color: $blue-dc;
                 display: none;
             }
         }
