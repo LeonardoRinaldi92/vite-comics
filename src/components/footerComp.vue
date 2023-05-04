@@ -16,7 +16,21 @@
                 <a href="#" class="follow">
                     follow us
                 </a>
-                
+                <a href="https://www.facebook.com/dc/?locale=it_IT" target="_blank">
+                    <img src="images/footer-facebook.png" alt="">
+                </a>
+                <a href="https://twitter.com/DCComics" target="_blank">
+                    <img src="images/footer-twitter.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/@dcofficial" target="_blank">
+                    <img src="images/footer-youtube.png" alt="">
+                </a>
+                <a href="https://www.pinterest.it/dccomics/" target="_blank">
+                    <img src="images/footer-pinterest.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/footer-periscope.png" alt="">
+                </a>
             </div>
 
         </div>
@@ -45,11 +59,15 @@
                 font-size: 1.2rem;
                 padding: 12px;
                 border: 3px solid $blue-dc;
+                
             }
             .icon-box {
                 display: flex;
                 justify-content: space-between;
-                align-items: center;           
+                align-items: center; 
+                a {
+                    margin-right: 20px;
+                }          
             }
             .follow {
                 font-size: 1.5rem;
@@ -57,6 +75,7 @@
                 text-decoration: none;
                 color: $blue-dc;                    
             }
+
         }
     }
 </style>
