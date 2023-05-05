@@ -3,7 +3,6 @@
 
     export default{
         name: "Thumb",
-        props: ['dettagliThumb'],
         components: {
             thumbComics,
 
